@@ -1,0 +1,248 @@
+/* :root{ color1: #4267b2;
+color2: #f25367;
+color3: #dddee3;
+color4: #1878f3;
+color5: #495056; } */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    min-height: 100vh
+}
+
+body{ 
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search_nav{
+    background-color: #4267b2;
+    border-bottom: 1px solido #53658b;
+    padding: 12px;
+    overflow: hidden;
+    min-height: 16px;
+}
+
+.search_nav .camera,.search_nav .messenger{
+    float: left;
+    width: 26px;
+}
+
+.search_nav .camera a .icon,.search_nav .messenger a .icon{
+    background-size: 26px;
+    height: 26px;
+    width: 26px;
+}
+
+.search_nav .messenger .icon_messenger{
+    background-position: 0px -26px; 
+}
+
+.search_nav .form #search{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #6685c5;
+    box-sizing: border-box;
+    color: #a1b3d9;
+    font-weight: normal;
+    font-size: 1em;
+    width: 100% ;
+    padding: 4px 4px 2px 22px;
+
+}
+
+.search_nav .form{
+    box-sizing: border-box;
+    float: left;
+    padding: 0px 16px;
+    width: calc(100% - 52px);
+    
+}
+
+.search_nav .form .icon48{
+    background-size: 16px;
+    position: absolute;
+    height: 16px;
+    widows: 16px; 
+}
+
+.search_nav .form .icon_src{
+    top: 16px;
+}    
+
+
+.icon{
+    background-image: url('../img/icons.png');
+    display: block;
+    height: 96px;
+    position: relative;
+    width: 96px; 
+}
+
+.icon .bubble{
+    background-color:  #f25367;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: .6em;
+    font-weight: bold;
+    padding: 2px 5px;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    text-align: center;
+}
+
+.icon48{
+    background-image: url('../img/icons_48.png');
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    height: 48px;
+    width: 48px; 
+}
+
+.icon48 .bubble{
+    background-color: #f25367;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: .6em;
+    font-weight: bold;
+    padding: 2px 5px;
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #fff;
+    border-bottom: 1px solid #c6c7cc;
+    overflow: hidden;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav ul li{
+    float: left;
+    text-align: center;
+    width: 16.6666%;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 9px 0;
+    width: 100%;
+}
+
+.nav ul .icon48{
+    background-size: 24px;
+    margin: 0 auto;
+    height: 24px;
+    width: 24px; 
+}
+
+.nav ul .icon48:hover{
+    animation: icon_scale .2s;
+}
+
+.nav ul .icon48_timeline{
+    background-position: 0px -24px;
+}
+
+.nav ul .icon48_timeline:hover{
+    background-position: 0px -48px; 
+}
+
+.nav ul .icon48_groups{
+    background-position: 0px -72px; 
+}
+
+.nav ul .icon48_groups:hover{
+    background-position: 0px -96px;
+}
+
+.nav ul .icon48_videos{
+    background-position: 0px -120px; 
+}
+
+.nav ul .icon48_videos:hover{
+    background-position: 0px -144px;
+}
+
+.nav ul .icon48_marketplace{
+    background-position: 0px -168px; 
+}
+
+.nav ul .icon48_marketplace:hover{
+    background-position: 0px -192px;
+}
+
+.nav ul .icon48_notifications{
+    background-position: 0px -216px; 
+}
+
+.nav ul .icon48_notifications:hover{
+    background-position: 0px -240px;
+}
+
+.nav ul .icon48_main{
+    background-position: 0px -264px; 
+}
+
+.nav ul .icon48_main:hover{
+    background-position: 0px -288px;
+}
+
+@-moz-keyframes icon_scale{
+    0%{
+        transform: scale(1)
+    }
+    75%{
+        transform: scale(.86)
+    }
+    100%{
+        transform: scale(1)
+    }
+} 
+
+@-webkit-keyframes icon_scale{
+    0%{
+        transform: scale(1)
+    }
+    75%{
+        transform: scale(.86)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+@-o-keyframes icon_scale {
+    0% {
+        transform: scale(1)
+    }
+    75% {
+        transform: scale(.86)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+@keyframes icon_scale {
+    0% {
+        transform: scale(1)
+    }
+    75% {
+        transform: scale(.86)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
